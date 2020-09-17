@@ -1,0 +1,53 @@
+/* Color Theme Swatches in Hex */
+.Mode-1-hex { color: #F2A7AD; }
+.Mode-2-hex { color: #011640; }
+.Mode-3-hex { color: #D9751E; }
+.Mode-4-hex { color: #D95323; }
+.Mode-5-hex { color: #F2C4C4; }
+
+/* Color Theme Swatches in RGBA */
+.Mode-1-rgba { color: rgba(242, 167, 173, 1); }
+.Mode-2-rgba { color: rgba(1, 22, 63, 1); }
+.Mode-3-rgba { color: rgba(216, 117, 30, 1); }
+.Mode-4-rgba { color: rgba(216, 83, 34, 1); }
+.Mode-5-rgba { color: rgba(242, 196, 196, 1); }
+
+
+header{
+    max-width: 100%; 
+    background-image: url(../img/orangeWithLeaves.jpg);  
+    background-size: 100%; 
+    min-height: 600px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #011640;
+    position: sticky; 
+    position: -webkit-sticky;
+    top: 0; 
+  }
+  
+ nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #D9751E;
+  }
+
+  h1{
+      color: white; 
+      height: 100%;
+  }
